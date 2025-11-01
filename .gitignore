@@ -1,0 +1,23 @@
+Python cache files
+
+pycache/
+*.pyc
+
+IDE files
+
+.vscode/
+.idea/
+
+OS files
+
+.DS_Store
+
+Virtual environment
+
+venv/
+env/
+*.env
+
+Any local secret files
+
+.env
