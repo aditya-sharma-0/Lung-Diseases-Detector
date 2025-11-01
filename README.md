@@ -7,7 +7,7 @@ This project was developed as a semester project for my Artificial Intelligence 
 
 ## **🚀 The Model: From 78% to 91%+ Accuracy**
 
-The core of this project was a series of experiments to find the best possible AI model. I didn't just build one model; I built and tested five, proving that **Transfer Learning with a VGG16 base and a Dense head** was the champion.
+The core of this project was a series of experiments to find the best possible AI model. I didn't just build one model; I built and tested five, proving that **Transfer Learning with a VGG16 base and a Dense head** was the better suited for this task.
 
 ### **My Experimental Journey**
 
