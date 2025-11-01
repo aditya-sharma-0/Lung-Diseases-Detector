@@ -1,9 +1,11 @@
+<!-- ## **title: Lung Disease Classifier emoji: 🫁🔬 colorFrom: blue colorTo: green sdk: gradio sdk\_version: "3.48.0" \# Use a specific, stable version app\_file: app.py pinned: false** -->
 # **Lung-Diseases-Detector 🫁🔬**
 
 A Deep Learning web application to classify chest X-Ray images into four categories: **Normal, COVID-19, Pneumonia, and Tuberculosis**.  
 This project was developed as a semester project for my Artificial Intelligence course, demonstrating a full-stack data science workflow from data analysis and model training to final deployment.  
-[**Try the Live Demo\!**](https://www.google.com/search?q=https://your-huggingface-space-url.hf.space) *(To be Replaced with HF Space URL after I deploy)*  
-*(After I deploy, ill take a screenshot and place it here)*
+[**Try the Live Demo\!**](https://aditya-sharma-0-lung-diseases-detector.hf.space/) 
+<img width="1317" height="767" alt="image" src="https://github.com/user-attachments/assets/f199ceed-1748-4717-8d76-f47b40694ac4" />
+
 
 ## **🚀 The Model: From 78% to 91%+ Accuracy**
 
@@ -25,7 +27,7 @@ I trained and evaluated 5 different architectures to find the best-performing mo
 4. **Model 4: MobileNetV2 \+ GAP() \+ Dense(256)**  
    * **Score:** 90.79%  
    * **Finding:** A very stable and efficient model that proves GlobalAveragePooling2D works well, but it didn't beat the VGG16+Flatten combination.  
-5. **Model 5: VGG16 \+ Flatten() \+ EarlyStopping (The *True* Champion)**  
+5. **Model 5: VGG16 \+ Flatten() \+ EarlyStopping (The *Winner*)**  
    * **Score:** **\~94.7%** (This was the *peak validation score* from Model 1).  
    * **Finding:** I combined the *architecture* of Model 1 with EarlyStopping and ModelCheckpoint callbacks. This re-trained model stops *at its peak performance*, capturing the \~94-95% accuracy *before* it starts to overfit. This is the **model\_FINAL\_BEST.h5** file used in this app.
 
